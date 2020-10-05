@@ -235,6 +235,12 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 </style>
 </head>
 <body>
+	<script>
+		if (window.CleverTap) {
+  // Call Android interface             
+ CleverTap.pushEvent("Product Viewed");          
+}
+	</script>
 	<img src="http://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/630x315/format/jpg/quality/85/http%3A%2F%2Fi.huffpost.com%2Fgen%2F3891580%2Fimages%2Fn-ELON-MUSK-628x314.jpg" />
     <div data-v-97216a92="" class="unsubscribed">
     <a data-v-97216a92="" href="/" class="router-link-active">
@@ -411,6 +417,9 @@ console.log('iframe.contentWindow =', iframe.contentWindow);
     debug_logs: 0
   });
 </script>
+	
+	
+	
 
     </body>
 </html>
