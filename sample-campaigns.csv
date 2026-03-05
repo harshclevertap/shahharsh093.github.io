@@ -1,0 +1,5 @@
+campaign_name,channel,start_date,audience,goal,frequency
+summer_push_wave_1,Push,2026-03-10,High Intent Users,CTR,Weekly
+email_reactivation_march,Email,2026-03-12,Dormant Users,Reactivation,Weekly
+whatsapp_coupon_weekend,WhatsApp,2026-03-14,Deal Seekers,Conversion,Biweekly
+web_banner_flash_sale,Browser,2026-03-16,All Visitors,Revenue,Weekly
